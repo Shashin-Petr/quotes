@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Мой генератор цитат</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+        background-color: rgb(52, 52, 123);
+        }
+        #quote-text{
+            font-size: 24px;
+            font-style: italic;
+            margin: 30px;
+            color: #b7db17;
+        }
+        #quote-author {
+        font-size: 18px;
+        font-weight: bold;
+        color: #6c6060;
+        }
+        button{
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4c7daf;
+            color: azure;
+            border:none ;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: #726ab1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Генератор мотивации на день</h1>
+    <div id="quote-text"></div>
+    <p id="quote-author"></p>
+    <button id="generate-btn">Дай цитату!</button>
+    <script src="script.js"></script>
+</body>
+</html>
